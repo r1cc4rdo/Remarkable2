@@ -17,8 +17,7 @@ positivity_journal = r"""    {
       "categories": [
         "Life/organize"
       ]
-    },
-"""
+    },"""
 
 
 def add_entry(filename, to_find, to_add):
@@ -33,7 +32,7 @@ def add_entry(filename, to_find, to_add):
         print('The template to be added is already there.')
         return
 
-    json_data.replace(to_find, to_find + '\n' + to_add)
+    json_data.replace(to_find, to_find + '\n' + to_add + '\n')
     with Path(filename).open('w') as json_file_in:
         json_file_in.write(json_data)
 
