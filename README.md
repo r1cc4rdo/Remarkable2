@@ -1,5 +1,5 @@
 # Remarkable 2 templates and resources
-Use the provided ```install.sh``` script to upload the suspension cover and templates provided in this repository.
+Use the provided ```install.sh``` script to upload the suspension cover and templates provided in this repository. It takes the local ip of your Remarkable device as an argument, #e.g.# ```install.sh 192.168.50.235```.
 
 The script will ask you for your Remarkable ssh password twice, once for downloading a pristine copy of the ```templates.json``` file, the second to upload the files to the device.
 
@@ -7,6 +7,7 @@ Refer to the page [SSH Access on the reMarkableWiki](https://remarkablewiki.com/
 
 ### Positivity journal
 The template is to serve both as a logging tool and a daily exercise in positivity.
+
 [![PositivityJournal](https://github.com/r1cc4rdo/Remarkable2/blob/main/images/PositivityJournal_HowTo_thumb.png?raw=true)](https://github.com/r1cc4rdo/Remarkable2/blob/main/images/PositivityJournal_HowTo.png?raw=true)
 
 It's been inspired by the following pages:
@@ -15,4 +16,5 @@ It's been inspired by the following pages:
 
 ### Motivational sleep cover
 This is to remember myself of good daily habits, and meant to be used to substitute the default ```suspended.png``` image in ```/usr/share/remarkable/```.
+
 [![EverydayMantra](https://github.com/r1cc4rdo/Remarkable2/blob/main/images/EverydayMantra_thumb.png?raw=true)](https://github.com/r1cc4rdo/Remarkable2/blob/main/modified/suspended.png?raw=true)
