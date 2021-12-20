@@ -28,11 +28,11 @@ def add_entry(filename, to_find, to_add):
         print('Cannot find the hook template.')
         return
 
-    if json_data.find(to_add):
+    if json_data.find(to_add) != -1:
         print('The template to be added is already there.')
         return
 
-    json_data.replace(to_find, to_find + '\n' + to_add + '\n')
+    json_data = json_data.replace(to_find, to_find + '\n' + to_add + '\n')
     with Path(filename).open('w') as json_file_in:
         json_file_in.write(json_data)
 
