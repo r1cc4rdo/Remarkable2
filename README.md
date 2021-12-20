@@ -1,7 +1,7 @@
 # Remarkable 2 templates and resources
 Use the provided ```install.sh``` script to upload the suspension cover and templates provided in this repository. It takes the local ip of your Remarkable device as an argument, *e.g.* ```install.sh 192.168.50.235```.
 
-The script will ask you for your Remarkable ssh password thrice, once for downloading a pristine copy of the ```templates.json``` file, the second to upload the files to the device, the third to reload changes. *This last step will reboot your Remarkable table!*.
+The script will ask you for your Remarkable ssh password thrice, once for downloading a pristine copy of the ```templates.json``` file, the second to upload the files to the device, the third to reload changes. *BEWARE: this last step will reboot your Remarkable tablet!*.
 
 Refer to the page [SSH Access on the reMarkableWiki](https://remarkablewiki.com/tech/ssh) for instructions on how to set passwordless login.
 
