@@ -3,7 +3,7 @@ Use the ```install.sh``` script to upload the suspension cover and templates pro
 
 The script will ask you for your Remarkable ssh password thrice, once for downloading a pristine copy of the ```templates.json``` file, the second to upload the files to the device, the third to *reboot your reMarkable UI*.
 
-Refer to the page [SSH Access on the reMarkableWiki](https://remarkablewiki.com/tech/ssh) for instructions on how to set passwordless login.
+Refer to the page [SSH Access on the reMarkableWiki](https://remarkablewiki.com/tech/ssh) for instructions on how to set passwordless login. Occasionally, after an update, passwordless access will stop working. This can be fixed by deleting the Remarkable ip entry from ```~/.ssh/known_hosts```.
 
 ### Positivity journal
 The template is to serve both as a logging tool and a daily exercise in positivity.
