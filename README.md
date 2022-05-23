@@ -15,6 +15,6 @@ It's been inspired by the following pages:
 * [Deciphering Glyph :: Unproblematize](https://glyph.twistedmatrix.com/2021/08/unproblematize.html)
 
 ### Motivational sleep cover
-This is to remember myself of good daily habits, and meant to be used to substitute the default ```suspended.png``` image in ```/usr/share/remarkable/```.
+This is to remind myself of good daily habits, and meant to be used to substitute the default ```suspended.png``` image in ```/usr/share/remarkable/```.
 
 [![EverydayMantra](https://github.com/r1cc4rdo/Remarkable2/blob/main/images/EverydayMantra_thumb.png?raw=true)](https://github.com/r1cc4rdo/Remarkable2/blob/main/modified/suspended.png?raw=true)
