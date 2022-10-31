@@ -19,6 +19,15 @@ positivity_journal = r"""    {
       ]
     },"""
 
+travel_checklist = r"""    {
+      "name": "Travel Checklist",
+      "filename": "TravelChecklist",
+      "iconCode": "\ue98f",
+      "categories": [
+        "Life/organize"
+      ]
+    },"""
+
 
 def add_entry(filename, to_find, to_add):
     with Path(filename).open('r') as json_file_in:
@@ -43,3 +52,4 @@ if __name__ == '__main__':
 
     print(f'Modifying {sys.argv[1]}')
     add_entry(sys.argv[1], checklist_portrait, positivity_journal)
+    add_entry(sys.argv[1], checklist_portrait, travel_checklist)
